@@ -1,9 +1,9 @@
 {
-  "timestamp": "2026-04-30T15:38:24.385753",
+  "timestamp": "2026-04-30T19:26:19.052262",
   "model": "gemini-2.5-flash-lite",
   "temperature": 0.2,
   "max_tokens": 120,
   "task": "neutral_news_summary",
-  "input_text": "\nGuvernul a anunțat un nou program de finanțare pentru modernizarea transportului public în orașele mari.\nProgramul include achiziția de autobuze electrice, modernizarea stațiilor și extinderea sistemelor de ticketing digital.\nReprezentanții ministerului spun că scopul este reducerea poluării și creșterea accesului la transport public.\nUnele organizații civice au cerut criterii clare de alocare a fondurilor și transparență în implementare.\n",
-  "output_text": "Guvernul a anunțat un program de finanțare pentru modernizarea transportului public în orașele mari. Acesta include achiziția de autobuze electrice, modernizarea stațiilor și extinderea ticketingului digital, având ca scop reducerea poluării și creșterea accesului. Organizațiile civice cer criterii clare de alocare a fondurilor și transparență."
+  "input_text": "\nCompania turcă Otokar, care are un contract de peste 4 miliarde de lei cu Ministerul Apărării pentru producția a 1.000 de vehicule ușoare Cobra II, a anunțat că a semnat acordul de achiziție a Automecanica SA și a facilității de producție din Mediaș. Digi24.ro a relatat pe larg, aici și aici, despre controversa generată de trecutul acționarilor Automecanica SA, în condițiile în care era unul dintre subcontractorii companiei turce în contractul pentru achiziția de vehicule blindate ușoare Cobra II\n\n",
+  "output_text": "Compania turcă Otokar, cu un contract de peste 4 miliarde de lei cu Ministerul Apărării pentru 1.000 de vehicule Cobra II, a semnat acordul de achiziție a Automecanica SA și a facilității sale din Mediaș. Automecanica era un subcontractor al Otokar în acest contract. Achiziția vine în contextul unei controverse legate de trecutul acționarilor Automecanica SA, raportată de Digi24.ro."
 }
