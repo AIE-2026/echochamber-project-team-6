@@ -3,6 +3,7 @@ gradio>=6.9.0
 
 # LLM routing (supports OpenAI, DeepSeek, Gemini, Claude, local Ollama)
 litellm>=1.35.0
+google-genai>=1.0.0
 
 # Agent orchestration
 langgraph>=1.0.10
