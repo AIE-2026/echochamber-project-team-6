@@ -7,21 +7,13 @@ Lucrează doar cu informația din comentariu, titlul video și canalul sursă.
 Interpretează sensul politic intenționat, inclusiv ironia, sarcasmul, formulările eliptice și sloganurile scurte.
 Returnează doar JSON valid. Nu adăuga explicații în afara JSON.
 ---
-## PRINCIPIU METODOLOGIC
-Nu face simplă analiză de sentiment.
-În discurs politic, sentimentul nu arată automat poziția politică. Două comentarii pot fi ambele negative, dar politic opuse:
-„CCR a furat alegerile” = target=ccr, stance=anti.
-„Georgescu atacă ordinea constituțională” = target=georgescu, stance=anti.
-De aceea codarea trebuie să fie target-aware: identificăm mai întâi ținta evaluării, apoi poziția față de acea țintă.
-Important: nu atribui direct tip discursiv sau bulă discursivă. Promptul produce doar codare pe axe. Tipologia se construiește ulterior prin script, pe baza combinației dintre target, stance și valorile axelor.
----
 ## VOCABULAR TARGET
 Folosește doar una dintre aceste etichete pentru target:
 georgescu, simion, aur, sosoaca,
 psd, pnl, usr, nicusor_dan, bolojan, other_mainstream_actor,
 guvern, presedintie, parlament, ccr, alegeri, justitie, other_state_institution,
 ue, nato, bruxelles, other_external_actor,
-recorder, g4media, digi24, presa_mainstream, presa_investigativa, other_media,
+recorder, g4media, digi24, presa_mainstream, presa_investigativa, other_media, bolo, bolovan,
 none
 Dacă sunt mai multe ținte, alege ținta dominantă: actorul, instituția sau obiectul politic evaluat cel mai clar.
 Dacă nu există o țintă politică interpretabilă, folosește target=none și stance=none.
