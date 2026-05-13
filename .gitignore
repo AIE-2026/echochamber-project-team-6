@@ -9,7 +9,7 @@ __pycache__/
 # Data files — tracked via .gitkeep, actual data stays local
 !data/raw/.gitkeep
 !data/cleaned/.gitkeep
-!data/bubbles/.gitkeep
+
 
 
 
