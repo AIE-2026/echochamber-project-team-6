@@ -7,3 +7,4 @@
 #
 # Students: you don't need to modify this file.
 # Your work is in assets/roles/roles.yaml — that's where you define the persona.
+# Agent module used for RAG-based political community simulation
