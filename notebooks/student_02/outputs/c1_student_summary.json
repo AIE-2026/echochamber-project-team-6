@@ -1,0 +1,9 @@
+{
+  "timestamp": "2026-05-12T04:04:51.987571",
+  "model": "gemini-2.5-flash-lite",
+  "temperature": 0.2,
+  "max_tokens": 120,
+  "task": "student_neutral_summary",
+  "input_text": "\nDeșteaptă-te, române, din somnul cel de moarte,În care te-adânciră barbarii de tirani!Acum ori niciodată croiește-ți altă soartă,La care să se-nchine și cruzii tăi dușmani.",
+  "output_text": "Acest text este o strofă din imnul național al României, \"Deșteaptă-te, române!\". El îndeamnă românii să se trezească din opresiune și să-și croiască o nouă soartă, în fața căreia dușmanii să se închine."
+}

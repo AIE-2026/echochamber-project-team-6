@@ -49,3 +49,11 @@ cp .env.example .env        # then add your API key
   - Member 3 → Agent:
   - Member 4 → Agent:
   - Member 5 → Agent:
+
+## Ethics and limitations
+
+EchoChamber is a teaching and research prototype. Its agents are simulated discursive roles, not real people or representatives of real social groups.
+
+Generated outputs may contain bias, unsupported claims, or amplified conflict and must be interpreted critically.
+
+See [`docs/ethics_checklist.md`](docs/ethics_checklist.md) for the complete ethics note and limitations.
